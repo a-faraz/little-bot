@@ -1,0 +1,16 @@
+{
+  "name": "nodebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "nodejs"
+  ],
+  "author": "AnjumFaraz10@gmail.com",
+  "license": "ISC"
+}
