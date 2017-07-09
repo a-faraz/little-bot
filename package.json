@@ -12,5 +12,8 @@
     "nodejs"
   ],
   "author": "AnjumFaraz10@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
 }
