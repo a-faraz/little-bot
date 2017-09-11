@@ -19,7 +19,7 @@ function justTweetIt () {
   let sentence = txtgen.sentence();
 
   // Posting the tweet
-  T.post('statuses/update', sentence, (err, data, response) => {
+  T.post('statuses/update', { status: sentence }, (err, data, response) => {
     if (err) {
       console.log('Error: ', err);
     } else {
@@ -28,4 +28,3 @@ function justTweetIt () {
   });
 
 };
-
